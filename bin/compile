@@ -25,4 +25,4 @@ tar jxf $CACHE_DIR/$FILE_NAME -C $CACHE_DIR
 mv $CACHE_DIR/$ARCHIVE_NAME $BUILD_DIR/vendor/xvfb
 
 ln -s /lib/x86_64-linux-gnu/libudev.so.1 $BUILD_DIR/vendor/xvfb/Xvfb/lib/libudev.so.0
-ln -s ./libXfont.so.1.4.1 $BUILD_DIR/vendor/xvfb/Xvfb/lib/libXfont.so.1
+ln -s libXfont.so.1.4.1 $BUILD_DIR/vendor/xvfb/Xvfb/lib/libXfont.so.1
