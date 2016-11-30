@@ -4,8 +4,8 @@ cat << EOF
 ---
 config_vars:
   PATH: "/usr/local/bin:/usr/bin:/bin:/app/vendor/xvfb/Xvfb/bin"
-  LD_LIBRARY_PATH: "/usr/local/lib:/usr/lib:/lib:/app/vendor/Xvfb/xvfb/lib:/app/vendor/Xvfb/xvfb/lib/dri"
+  LD_LIBRARY_PATH: "/usr/local/lib:/usr/lib:/lib:/app/vendor/xvfb/Xvfb/lib:/app/vendor/xvfb/Xvfb/lib/dri"
   TMPDIR: "/app/tmp"
 default_process_types:
-  console: "vendor/xvfb/bin/xvfb"
+  console: "vendor/xvfb/Xvfb/bin/xvfb"
 EOF
